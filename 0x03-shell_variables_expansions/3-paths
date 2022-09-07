@@ -1,0 +1,3 @@
+#!/bin/bash
+3 PATH=$PATH:/action
+echo $PATH | tr ':' '\n' | wc -l
